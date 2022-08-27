@@ -26,3 +26,9 @@ For testing, we're using the model of an Airport. It has a size of around 2kb.
 | Hash Non Pipelined | 609   | 0.60       | 1000           | 10             |
 | Hash Pipelined     | 18.36 | 0.018      | 1000           | 10             |
 | Json Pipelined     | 23.72 | 0.023      | 1000           | 10             |
+
+### Lettuce:
+|                    | Avg  | Per Insert | Number Of Keys | Number of runs | 
+|--------------------|------|------------|----------------|----------------|
+| Hash Non Pipelined | 1747 | 1.74       | 1000           | 10             |
+| Hash Pipelined     | 13   | 0.013      | 1000           | 10             |
