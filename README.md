@@ -9,10 +9,18 @@ For testing, we're using the model of an Airport. It has a size of around 2kb.
 
 ## Metrics
 ### Redis OM Spring:
+
+#### Before version 0.6.0
 |                    | Avg (ms) | Per Insert (ms) | Number Of Keys | Number of runs | 
 |--------------------|----------|-----------------|----------------|----------------|
 | Hash               | 2787     | 2.78            | 1000           | 10             |
 | Json               | 2357     | 2.35            | 1000           | 10             |
+
+#### After version 0.6.0
+|                    | Avg (ms) | Per Insert (ms) | Number Of Keys | Number of runs | 
+|--------------------|----------|-----------------|----------------|----------------|
+| Hash               | 204      | 0.20            | 1000           | 10             |
+| Json               | 261      | 0.26            | 1000           | 10             |
 
 
 ### Spring Data Redis
